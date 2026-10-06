@@ -1,0 +1,43 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+menu {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+
+
+
+
+
+body{
+display: flex;
+flex-direction: row;
+min-height: 1100vh;
+background-color: black;
+}
+
+.rows{
+    display: flex;
+    gap: 70px;
+}
+
+.rows article{
+   flex: 1;
+background-color: #1010;
+}
+
+.rows article{
+   flex: 1;
+background-color: #23951f
+}
+
+.rows article{
+   flex: 1;
+background-color: #c31c1c
+}
