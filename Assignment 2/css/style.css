@@ -1,0 +1,186 @@
+/* Remove the browser's default spacing. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* width holds padding+border */
+  background-color: #999797
+}
+body
+
+
+
+  .grechen-fuemen-regular {
+  font-family: "Grechen Fuemen", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.eagle-lake-regular {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a { 
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  color: #2b0769;
+  font-style: normal;
+  font-size: 2.75rem;
+  /*gaps between the links*/
+}
+
+h1 { 
+  font-family: "Eagle Lake", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #048bb8;
+}
+
+h3 {
+  font-family: "Eagle Lake", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  h2 {
+  background-color: #2b0769;
+  color: #d1d1d1;
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
+  /*margin spacing*/
+  }
+
+  p {
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  .coverimage {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;    
+  object-position: top; 
+  /*this image is cropped down to make a banner image for the header*/
+  }
+
+  .line1 {
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 5rem;
+  font-weight: 400;
+  font-style: oblique;
+  margin: 15px;
+  color: #2b0769;
+  letter-spacing: 0.4rem;
+  line-height: 2.5;
+  }
+
+  .line2 {
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: normal;
+  margin: 5px;
+  color: #000000;
+  letter-spacing: 0.1rem;
+  line-height: 1.25;
+  }
+
+  .line3 {
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 2.1rem;
+  font-weight: 400;
+  font-style: normal;
+  margin: 5px;
+  color: #2b0769;
+  letter-spacing: 0.4rem;
+  line-height: 2.5;
+  }
+
+  .line4 {
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-style: normal;
+  margin: 5px;
+  color: #000000;
+  letter-spacing: 0.1rem;
+  }
+
+  .line5 {
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 2.3rem;
+  font-weight: 400;
+  font-style: normal;
+  margin: 5px;
+  color: #2b0769;
+  letter-spacing: 0.5rem;
+  line-height: 2.5;
+  }
+
+  .line6 {
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-style: normal;
+  margin: 5px;
+  color: #000000;
+  letter-spacing: 0.3rem;
+  }
+
+  .line7 {
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px;
+  color: #2b0769;
+  letter-spacing: 0.4rem;
+  line-height: 2.5;
+  }
+
+  .line8 {
+  font-family: "Eagle Lake", serif;
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: normal;
+  margin: 15px;
+  color: #000000;
+  letter-spacing: 0.4rem;
+  line-height: 1.25;
+  }
+
+  .line9 {
+  font-family: "Eagle Lake", serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-style: italic;
+  margin: 5px;
+  color: #0300a9;
+  letter-spacing: 0.5rem;
+  line-height: 2.5;
+  }
+
+  .line10 {
+  font-family: "Eagle Lake", serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-style: italic;
+  margin: 5px;
+  color: #18005b;
+  letter-spacing: 0.7rem;
+  line-height: 2.5;
+  }
+
+  /* I am not a designer or musician but I tried my best to incorperate some sort of color, size and font style to show highs/lows, arstists, and how long/short some lines are.
+  I feel that next time I can make a better effort from scratch for a separate project.*/
