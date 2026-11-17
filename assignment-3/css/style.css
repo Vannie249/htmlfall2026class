@@ -1,0 +1,227 @@
+/* Remove the browser's default spacing so we control everything. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* width includes padding and border (lecture code) */
+}
+
+/* would either make an element or image that acts as a red line divider for top and bottom text */
+
+html body {
+
+max-height: 100vh;
+background-color: black;
+text-transform: uppercase;
+/* using full vh */
+/* black backround to mesh with poster colors */
+
+}
+
+h1 {
+
+font-family: "Jost", sans-serif;
+  font-size: 5em;
+  color: white;
+  font-weight: 250;
+  line-height: 1em;
+  text-shadow: 
+    0 0 5px rgb(183, 187, 104),
+    0 0 15px rgb(183, 187, 104),
+    0 0 30px rgb(183, 187, 104);
+    /* GLOW (discovered by asking google what a simple glow might look like in css)*/
+    /* main title with outline - maybe try to get "the" inside of "o" */
+
+}
+
+h2 {
+
+font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  /* bottom tag */
+
+}
+
+h3 {
+
+font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 165%;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+  color: black;
+  text-shadow: 
+  0 0 5px white,
+  0 0 15px white,
+  0 0 30px white
+/* GLOW (discovered by asking google what a simple glow might look like in css)*/
+/* using text shadow to make outlines */
+}
+
+h4 {
+
+font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 150%;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-style: normal;
+  color: white;
+/* used to make text similar to poster*/
+}
+
+p {
+
+ font-family: "Six Caps", sans-serif;
+  color: rgb(147, 164, 72);
+  /* closest google font to billing block and similar color */
+
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+    text-shadow: 
+    0 0 5px rgb(183, 187, 104),
+    0 0 15px rgb(183, 187, 104),
+    0 0 30px rgb(183, 187, 104);
+    /* GLOW (discovered by asking google what a simple glow might look like in css)*/
+     /*hyperlink decoration*/
+}
+
+.poster {
+
+display: flex;
+position: absolute;
+justify-content: center;
+height: 100dvh;
+width: 100vw;
+align-items: center;
+/* use flex to align my entire poster to the center on both axis and use the width and height */
+
+}
+
+.poster-img {
+
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain; 
+/* fit image within html body bounds */
+}
+
+.poster-header {
+
+position: absolute;
+top: 5vh;
+left: 0;
+right: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0;
+text-align: center;
+/* stack text , center, on both axis, and absolute position of the header */
+
+}
+
+.poster-footer {
+
+position: absolute;
+bottom: 5vh;
+left: 0;
+right: 0;
+width: 550px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0;
+text-align: center;
+/* stack text, center, on both axis, absolute place my footer, make auto margin on sides, 0 to top and padding */
+
+}
+
+.hangover-underline {
+
+text-decoration: underline red;
+text-decoration-thickness: 1px;
+text-underline-offset: 7px;
+/* instead of making a physical line - use underline - sized to be similar to the poster */
+}
+
+.large-txt {
+
+font-size: 1em;
+/* larger text for cast and productions */
+}
+
+.billing-block {
+
+font-size: 0.5em;
+font-weight: 550;
+letter-spacing: .5px;
+/* joing words */
+}
+
+.logo-plus-tag {
+
+display: inline-flex;
+align-items: center;
+gap: 6px;   
+/* center with text and give some space */
+}
+
+.logo-plus-tag img {
+
+width: 75px;
+height: 18px;
+/* adjust sizes of logo's relatively in fine tuning */
+}
+
+.website {
+
+font-size: .25em;
+width: 40px;
+height: 10px;
+/* text "website www. " is text due to being a closed website no longer in use - sizing */
+}
+
+.large-txt {
+
+font-size: 13px;
+/* billing block class for altering letter sizes */
+}
+
+.vegas-overline {
+
+text-decoration: overline red;
+text-decoration-thickness: 1.15px;
+text-underline-offset: 7px;
+/* instead of making a physical line - use overline - sized to be similar to the poster */
+}
+
+.letter-o {
+
+position:relative;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+text-decoration: inherit;
+/* inherit h1 properties so that the "O" gets an underline */
+}
+
+.word-the {
+
+position:absolute;
+top: 22%;
+left: 58.5%;
+text-size-adjust: 23%;
+transform: translate(-50%, -48%);
+/* positionally moving "THE" into the "O" */
+}
